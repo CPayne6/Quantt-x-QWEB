@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Home, Contact, Resources, About } from './pages';
+import Navbar from './util/Navbar.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         {/*
           Navbar stuff with links here
         */}
+        <Navbar/>
         <Switch>
           <Route path="/about"> 
             <About/>
