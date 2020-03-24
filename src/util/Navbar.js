@@ -10,7 +10,7 @@ const Navbar =  () => {
     const toggleOpen = () => setOpen(!isOpen);
 
     return (
-        <ReactStrapBar className="flex-fill" color="light" light expand="sm">
+        <ReactStrapBar className="flex-fill nav-pos" color="light" light expand="sm">
             <NavbarBrand href="/">
                 <img src={Logo} alt="Quantt" className="logo"/>
             </NavbarBrand>
